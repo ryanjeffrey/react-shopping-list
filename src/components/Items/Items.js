@@ -49,7 +49,7 @@ export default function Items() {
               className="m-1"
               type="checkbox"
               checked={item.purchased}
-              onClick={() => handleClick(item)}
+              onChange={() => handleClick(item)}
             />
             {item.qty} {item.name}
           </label>
